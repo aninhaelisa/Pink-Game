@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memoria</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/7432/7432014.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/card.css" />
+    <link rel="stylesheet" href="styles/win.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pink Game</h1>
+    
+    </header>
+    
+    <div id="vitoria">
+      <div id="container">
+        <h1>Parabéns!</h1>
+        <p>Você encontrou todos os pares com</p>
+        <h2><span id="movimentosvitoria">0</span> ERROS</h2>
+        <a href="index.html">Jogar denovo</a>
+      </div>
+    </div>
+
+    <section id="responsivo">
+      <h2>Erros <span id="movimentos2">0</span></h2>
+   
+      <a href="index.html">Reiniciar</a>
+    </section>
+
+    <div class="corpo">
+      <section id="esq">
+        <h2>Erros <span id="movimentos">0</span></h2>
+        
+        <a href="index.html">Reiniciar</a>
+      </section>
+      <section class="jogo">
+        <div class="card" data-nome = "rosa">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/2926/2926754.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "rosa">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/2926/2926754.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "peixinho">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/4484/4484394.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "peixinho">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/4484/4484394.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "drink">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/7848/7848361.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "drink">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/7848/7848361.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "coracao">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/9254/9254789.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "coracao">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/9254/9254789.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "oculos">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/682/682368.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "oculos">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/682/682368.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "boto">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/3060/3060578.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+        <div class="card" data-nome = "boto">
+          <img
+            class="frente"
+            src="https://cdn-icons-png.flaticon.com/512/3060/3060578.png"
+            alt="card"
+          />
+          <img
+            class="verso"
+            src="https://cdn-icons-png.flaticon.com/512/7194/7194170.png"
+            alt="card"
+          />
+        </div>
+      </section>
+      <section id="dir"></section>
+    </div>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
